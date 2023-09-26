@@ -17,3 +17,9 @@ or
 ```bash
 npx prisma init --datasource-provider sqlite
 ```
+
+## Migrations
+
+```bash
+npx prisma migrate dev
+```
