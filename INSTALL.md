@@ -23,3 +23,19 @@ npx prisma init --datasource-provider sqlite
 ```bash
 npx prisma migrate dev
 ```
+
+## Add typescript
+
+```bash
+npm i typescript ts-node-dev @types/node -D
+```
+
+```bash
+npx tsc --init
+```
+
+```json
+"scripts": {
+  "dev": "ts-node-dev --respawn src/index.ts"
+},
+```
